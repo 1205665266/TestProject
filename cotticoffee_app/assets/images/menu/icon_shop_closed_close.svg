@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形</title>
+    <g id="点餐" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="菜单-无购物车休息中" transform="translate(-339.000000, -707.000000)" fill-rule="nonzero">
+            <g id="btn_submit" transform="translate(0.000000, 691.000000)">
+                <g id="右箭头" transform="translate(339.000000, 16.000000)">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                    <polygon id="路径" fill="#FFFFFF" transform="translate(8.034929, 8.034929) rotate(270.000000) translate(-8.034929, -8.034929) " points="5.57535975 2 4.53492868 3.1460951 9.33492868 8.0210951 4.53492868 12.8960951 5.57535975 14.0698574 11.5349287 8.0210951"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

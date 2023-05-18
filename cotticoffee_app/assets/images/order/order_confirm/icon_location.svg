@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形@2x</title>
+    <g id="----确认订单" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="确认订单-外卖配送（到店自取）-取餐门店较远" transform="translate(-27.000000, -677.000000)">
+            <g id="编组-13" transform="translate(0.000000, 557.000000)">
+                <g id="编组-13备份-6" transform="translate(16.000000, 53.000000)">
+                    <g id="定位" transform="translate(11.000000, 67.000000)">
+                        <rect id="矩形" x="0" y="0" width="13" height="12"></rect>
+                        <g id="编组-16" transform="translate(2.000000, 0.000000)" stroke="#CD4444">
+                            <path d="M4.5,0.5 C5.6045695,0.5 6.6045695,0.94771525 7.32842712,1.67157288 C8.05228475,2.3954305 8.5,3.3954305 8.5,4.5 C8.5,6.02216985 7.11006843,8.262952 4.45917452,11.2468022 C1.86107079,8.26281837 0.5,6.02185205 0.5,4.5 C0.5,3.3954305 0.94771525,2.3954305 1.67157288,1.67157288 C2.3954305,0.94771525 3.3954305,0.5 4.5,0.5 Z" id="椭圆形"></path>
+                            <circle id="椭圆形" cx="4.5" cy="4.5" r="1.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

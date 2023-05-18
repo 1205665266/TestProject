@@ -1,0 +1,139 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+def dartDefines = []
+if (project.hasProperty('dart-defines')) {
+    dartDefines = project.property('dart-defines')
+            .split(',')
+            .collectEntries { entry ->
+                def pair = new String(entry.decodeBase64(), 'UTF-8').split('=')
+                [(pair.first()): pair.last()]
+            }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply plugin: 'com.huawei.agconnect'
+apply plugin: 'com.sensorsdata.analytics.android'
+android {
+    compileSdkVersion 32
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "com.cotticoffee.cotticlient"
+        minSdkVersion 21
+        targetSdkVersion 29
+        multiDexEnabled true
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        setProperty("archivesBaseName", "cotti-client-v${flutterVersionName}-$dartDefines.ENV")
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_CHANNEL : "developer-default",
+                JPUSH_APPKEY  : 'prod' == dartDefines.ENV ? "e834a319864dcf691ba2ed82" : "698a5e6a9ec92944b12bd9d9",
+                XIAOMI_APPID  : "MI-2882303761520205618",
+                XIAOMI_APPKEY : "MI-5462020515618",
+                VIVO_APPKEY   : "8d56ec807286e1946fbfdfdda002dcba",
+                VIVO_APPID    : "105610839",
+                OPPO_APPKEY   : "OP-ab854fe6268a4473824c6047a682599f",
+                OPPO_APPID    : "OP-30924743",
+                OPPO_APPSECRET: "OP-a390f2540bc04ba58dfdb0ea87f91a82",
+                HONOR_APPID   : "107441577",
+        ]
+    }
+
+    signingConfigs {
+        release {
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storeFile file(STORE_PATH)
+            storePassword STORE_PASSWORD
+        }
+        debug {
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storeFile file(STORE_PATH)
+            storePassword STORE_PASSWORD
+        }
+    }
+
+    buildTypes {
+        debug {
+            ndk {
+                abiFilters "armeabi-v7a", "arm64-v8a", "x86"
+            }
+            signingConfig signingConfigs.debug
+            minifyEnabled false
+            debuggable true
+        }
+        release {
+            ndk {
+                abiFilters "armeabi-v7a", "arm64-v8a"
+            }
+            signingConfig signingConfigs.release
+            debuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'com.heytap.msp-push-3.1.0', ext: 'aar')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.sensorsdata.analytics.android:SensorsAnalyticsSDK:6.1.1'
+    implementation 'com.amap.api:location:6.2.0'
+    implementation 'com.huawei.hms:push:6.7.0.300'
+    implementation 'cn.jiguang.sdk.plugin:huawei:4.8.4'
+    implementation 'cn.jiguang.sdk.plugin:honor:4.8.4'
+    implementation 'cn.jiguang.sdk.plugin:xiaomi:4.8.4'
+    implementation 'cn.jiguang.sdk.plugin:vivo:4.8.4'
+    implementation 'cn.jiguang.sdk.plugin:oppo:4.8.4'
+    implementation 'commons-codec:commons-codec:1.6'
+}

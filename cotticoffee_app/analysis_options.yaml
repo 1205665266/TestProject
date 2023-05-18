@@ -1,0 +1,97 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    #    unnecessary_new: error
+    #文件名采用小写+下划线的方式命名
+    file_names: error
+    #类型定义采用大写驼峰
+    camel_case_types: error
+    #函数扩展采用大写驼峰
+    camel_case_extensions: error
+    #库名采用小写+下划线的方式命名
+    library_names: error
+    #普通变量使用驼峰命名
+    non_constant_identifier_names: error
+    #静态变量使用驼峰命名
+    constant_identifier_names: error
+    #包引用排序
+    #dart开头的包排列在最前面
+    #package开头的包排在相对引用包前面
+    #exports列在单独模块
+    #每个模块内引用按字母顺序排列
+    directives_ordering: error
+    #控制流中使用大括号
+    curly_braces_in_flow_control_structures: error
+    #评论使用三斜杠标识
+    slash_for_doc_comments: error
+    #评论中使用可引用范围内的变量
+    comment_references: error
+    #避免产生环境使用print
+    avoid_print: error
+    #对重写的方法和变量加override注解
+    annotate_overrides: error
+    #使用isEmpty和isNotEmpty 来判断是否为空，而不是通过.length是否为0的方式
+    prefer_is_empty: error
+    prefer_is_not_empty: error
+    #不要在void函数中放回null
+    avoid_returning_null_for_void: error
+    #判断Type不要使用ToString()
+    avoid_type_to_string: error
+    #不要将可空值？ as成不可空值
+    cast_nullable_to_non_nullable: error
+    #try catch finally 的finally中不要加return、continue、break、throw
+    control_flow_in_finally: error
+    throw_in_finally: error
+    #构造函数以;分号结尾，替代{}
+    empty_constructor_bodies: error
+    #构造方法里不要加参数类型
+    type_init_formals: error
+    #一定要显式声明变量类型，如果明确表示类型未知，则使用dynamic
+    always_specify_types: error
+    #使用 ??= 代替判断null
+    prefer_conditional_assignment: error
+    #在String和List中优先使用contains 代替indexOf
+    prefer_contains: error
+    #函数默认值使用 = 来赋值
+    prefer_equal_for_default_values: error
+    #空判断使用??操作符
+    prefer_if_null_operators: error
+    #优先使用sizedBox而不是Container
+    sized_box_for_whitespace: error
+    #避免不需要的大括号
+    unnecessary_brace_in_string_interps: error
+
+#  exclude: #此处配置的是忽略检测文件的配置
+#    lib/main.dart
+#  strong-mode: #设置某些规则为严格模式
+#    unnecessary_new: true
+linter:
+  # The lint rules applied to this project can be customized in the
+  # section below to disable rules from the `package:flutter_lints/flutter.yaml`
+  # included above or to enable additional rules. A list of all available lints
+  # and their documentation is published at
+  # https://dart-lang.github.io/linter/lints/index.html.
+  #
+  # Instead of disabling a lint rule for the entire project in the
+  # section below, it can also be suppressed for a single line of code
+  # or a specific dart file by using the `// ignore: name_of_lint` and
+  # `// ignore_for_file: name_of_lint` syntax on the line or in the file
+  # producing the lint.
+  rules:
+  # avoid_print: false  # Uncomment to disable the `avoid_print` rule
+  # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule
+
+
+
+# Additional information about this file can be found at
+# https://dart.dev/guides/language/analysis-options

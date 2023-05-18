@@ -1,0 +1,12 @@
+//
+//  Dart.xcconfig
+//  Runner
+//
+//  Created by 范风波 on 2022/10/31.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "DartDefines.xcconfig"
+
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) SASERVERURL='$(SA_SERVER_URL)'

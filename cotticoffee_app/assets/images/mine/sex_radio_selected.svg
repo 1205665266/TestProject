@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>radio_selected</title>
+    <g id="F-我的-个人信息" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="弹层-1（性别）备份" transform="translate(-317.000000, -669.000000)" stroke="#CD4444" stroke-width="0.8">
+            <g id="编组-2" transform="translate(16.000000, 603.500000)">
+                <g id="男" transform="translate(0.000000, 48.500000)">
+                    <g id="选中" transform="translate(301.000000, 17.000000)">
+                        <path d="M12,23 C5.93492502,23 1,18.0653546 1,11.999496 C1,5.9337633 5.93492502,1 12,1 C18.065075,1 23,5.93464539 23,11.999496 C23,18.0644725 18.0660846,23 12,23" id="Fill"></path>
+                        <polyline id="路径-2" stroke-linecap="round" stroke-linejoin="round" points="5.93287164 11.7945733 9.98808988 15.9976569 18.9015447 7.012151"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

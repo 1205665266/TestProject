@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="20px" viewBox="0 0 10 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径@3x</title>
+    <defs>
+        <path d="M3.18387518,11.3570468 L0.500549952,11.3570468 C0.150217682,11.3570468 -0.0914482604,10.9468193 0.0332180352,10.5640833 L1.69954331,0.376691762 C1.77339207,0.149915518 1.95926824,0 2.16670858,0 L6.66602832,0 C7.02102725,0 7.26302652,0.420756125 7.12902692,0.805441857 L5.57653161,7.26335097 L8.49918946,7.26335097 C8.92902149,7.26335097 9.15835414,7.85607508 8.87485498,8.23393669 L2.70920996,19.7857635 C2.32972801,20.2776452 1.71504629,19.8477656 1.85021255,19.250557 L3.18387518,11.3570468 Z" id="path-1"></path>
+        <filter x="-11.1%" y="-5.0%" width="122.2%" height="110.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="-1" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.759397645   0 0 0 0 0.259306513   0 0 0 0 0.259306513  0 0 0 0.349623033 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="V1.4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="商品详情_特价不限量" transform="translate(-83.000000, -698.000000)">
+            <g id="编组-2" transform="translate(0.000000, 692.000000)">
+                <g id="路径" transform="translate(83.000000, 6.000000)">
+                    <use fill="#CD4444" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

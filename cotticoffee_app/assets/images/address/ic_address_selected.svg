@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>radio_selected</title>
+    <g id="地址搜索" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-335.000000, -398.000000)" fill-rule="nonzero" id="地址列表">
+            <g transform="translate(0.000000, 378.000000)">
+                <g id="编组-6" transform="translate(16.000000, 12.000000)">
+                    <g id="编组-2" transform="translate(319.000000, 8.000000)">
+                        <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                        <polygon id="路径" fill="#CD4444" points="9.11953125 13.9357031 6.06304687 10.873125 3.50671875 13.4233594 9.11953125 19.0792969 20.6475 7.5140625 18.0975 4.9640625"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

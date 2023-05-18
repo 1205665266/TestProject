@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="50px" viewBox="0 0 84 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>closed牌子</title>
+    <g id="点餐" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="菜单-休息中（门店营业时间）" transform="translate(-271.000000, -665.000000)">
+            <g id="编组-30" transform="translate(0.000000, 609.000000)">
+                <g id="CLOSED" transform="translate(271.000000, 56.000000)">
+                    <g id="编组-10">
+                        <polyline id="路径" stroke="#3A3B3C" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" points="27 14.2754321 42.6759452 3 57.356916 14.0532737"></polyline>
+                        <path d="M42.5,5 C43.8807119,5 45,3.88071187 45,2.5 C45,1.11928813 43.8807119,0 42.5,0 C41.1192881,0 40,1.11928813 40,2.5 C40,3.88071187 41.1192881,5 42.5,5 Z" id="形状结合" fill="#3A3B3C"></path>
+                        <path d="M83.0070344,14.5029609 L83.4929508,49.0030273 L0.992965635,49.4970391 L0.507049207,14.9969727 L83.0070344,14.5029609 Z" id="矩形" stroke="#3A3B3C" fill="#F7F6F6"></path>
+                    </g>
+                    <text font-family="Montserrat-Bold, Montserrat" font-size="18" font-weight="bold" fill="#3A3B3C">
+                        <tspan x="3" y="40">CLOSED</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

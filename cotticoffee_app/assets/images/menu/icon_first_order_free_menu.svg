@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="4px" viewBox="0 0 6 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>慢必赔（选中）</title>
+    <g id="菜单" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="菜单_点餐助手（左侧-中间标签" transform="translate(-359.000000, -119.000000)" fill="#958576">
+            <g id="Component/取餐方式/到店自取" transform="translate(243.000000, 104.000000)">
+                <g id="慢必赔" transform="translate(53.000000, 0.000000)">
+                    <path d="M69,15 L65.7627765,18.237362 C65.2313478,17.0622318 64.5423902,15.9735817 63.7228363,14.9983441 L69,15 Z" id="形状结合"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

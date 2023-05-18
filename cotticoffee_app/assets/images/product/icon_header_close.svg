@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>关闭</title>
+    <g id="商品详情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="商品详情_App" transform="translate(-335.000000, -56.000000)">
+            <g id="Wechatsystem-default-@3x-Copy-9" transform="translate(335.000000, 56.000000)">
+                <rect id="Rectangle-2" stroke-opacity="0.2" stroke="#5E5E5E" stroke-width="0.5" fill-opacity="0.596637228" fill="#FFFFFF" transform="translate(14.000000, 14.000000) scale(-1, 1) translate(-14.000000, -14.000000) " x="0.25" y="0.25" width="27.5" height="27.5" rx="13.75"></rect>
+                <g id="右箭头" transform="translate(14.000000, 14.000000) scale(-1, 1) translate(-14.000000, -14.000000) translate(5.000000, 5.000000)" fill="#000000" fill-rule="nonzero">
+                    <polygon id="矩形" opacity="0" points="0 0 18 0 18 18 0 18"></polygon>
+                    <path d="M13.572048,3.5 L14.5,4.54450664 L10.2189189,8.98739261 L14.5,13.4302786 L13.572048,14.5 L9,9.758 L4.42795204,14.5 L3.5,13.4302786 L7.78108108,8.98739261 L3.5,4.54450664 L4.42795204,3.5 L9,8.22 L13.572048,3.5 Z" id="形状结合"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

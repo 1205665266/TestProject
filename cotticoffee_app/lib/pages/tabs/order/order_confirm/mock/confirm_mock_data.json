@@ -1,0 +1,22 @@
+{
+  "tookFoodMode": 1,
+  "shopMdCode": 20300001268,
+  "latitude": "",
+  "longitude": "",
+  "chooseNotUseCoupon": false,
+  "couponNoList": [],
+  "confirmGoodsItemParams": [
+    {
+      "spuNo": "SP1254",
+      "skuNo": "SP1254-00001",
+      "buyNum": 10,
+      "specialPrice": ""
+    },
+    {
+      "spuNo": "SP1256",
+      "skuNo": "SP1256-00001",
+      "buyNum": 10,
+      "specialPrice": ""
+    }
+  ]
+}

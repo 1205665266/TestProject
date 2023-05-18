@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>添加备份</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="70" height="70" rx="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="70" height="70" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="确认订单；订单列表；评价" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="评价页面微调修改备份" transform="translate(-40.000000, -798.000000)">
+            <g id="编组-16" transform="translate(16.000000, 530.000000)">
+                <g id="文本输入框" transform="translate(12.000000, 200.000000)">
+                    <g id="添加备份" transform="translate(12.000000, 68.000000)">
+                        <g id="编组-7">
+                            <g id="编组" transform="translate(27.000000, 20.000000)">
+                                <path d="M4.34983664,1.67607831 C4.08897232,2.16180018 3.43031044,2.55555556 2.88300159,2.55555556 L1.5,2.55555556 C0.675,2.55555556 0,3.25555556 0,4.11111111 L0,13.4444444 C0,14.3 0.675,15 1.5,15 L13.5,15 C14.325,15 15,14.3 15,13.4444444 L15,4.11111111 C15,3.25555556 14.325,2.55555556 13.5,2.55555556 L12.1169984,2.55555556 C11.5677521,2.55555556 10.9080469,2.15625 10.6501634,1.67607831 L10.2223366,0.879477249 C9.96147232,0.393755377 9.30207109,-4.90678926e-15 8.75130415,-4.90678926e-15 L6.24869585,-4.90678926e-15 C5.69713136,-4.90678926e-15 5.03554687,0.399305556 4.77766336,0.879477249 L4.34983664,1.67607831 Z" id="Path" stroke="#979797" stroke-width="1.25"></path>
+                                <path d="M2.76151261,0.2 C3.10669058,0.2 3.38651261,0.479822031 3.38651261,0.825 C3.38651261,1.13879815 3.15525474,1.39858314 2.85387053,1.4432234 L2.76151261,1.45 L0.725,1.45 C0.379822031,1.45 0.1,1.17017797 0.1,0.825 C0.1,0.511201847 0.331257877,0.251416865 0.632642081,0.206776605 L0.725,0.2 L2.76151261,0.2 Z" id="路径-2" fill="#979797" fill-rule="nonzero"></path>
+                                <path d="M7.5,12 C5.568,12 4,10.432 4,8.5 C4,6.568 5.568,5 7.5,5 C9.432,5 11,6.568 11,8.5 C11,10.432 9.432,12 7.5,12 L7.5,12 Z" id="Path" stroke="#CD4444" stroke-width="1.25"></path>
+                            </g>
+                            <use id="矩形" stroke="#5E5E5E" mask="url(#mask-2)" stroke-width="1.2" stroke-dasharray="1,1.28" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="添加照片备份" font-family="PingFangSC-Regular, PingFang SC" font-size="11" font-weight="normal" line-spacing="11" fill="#5E5E5E">
+                            <tspan x="13" y="53">添加照片</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

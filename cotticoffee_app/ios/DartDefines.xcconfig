@@ -1,0 +1,3 @@
+ENV=test
+SA_SERVER_URL=@"access.abite.com/sa?project=cotticoffee_test"
+FLUTTER_WEB_AUTO_DETECT=true

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>非常不推荐备份 2 2</title>
+    <g id="去评价" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="一般-选中备份" stroke="#979797">
+            <circle id="椭圆形" stroke-width="0.9375" fill="#F9F6F6" cx="15" cy="15" r="14.53125"></circle>
+            <g id="编组-2" fill="#979797">
+                <circle id="椭圆形" cx="9.5" cy="11.4375" r="1.5"></circle>
+                <circle id="椭圆形备份" cx="20.5" cy="11.4375" r="1.5"></circle>
+            </g>
+            <line x1="9.88349492" y1="18.6328125" x2="20.1001816" y2="18.6328125" id="路径-3" fill="#979797"></line>
+        </g>
+    </g>
+</svg>

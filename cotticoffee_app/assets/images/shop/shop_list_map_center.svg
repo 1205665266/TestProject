@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF705B" offset="0%"></stop>
+            <stop stop-color="#CD4444" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="门店列表" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-112.000000, -165.000000)" id="编组-9">
+            <g transform="translate(112.000000, 165.000000)" id="编组-6">
+                <ellipse id="椭圆形" fill="url(#linearGradient-1)" cx="25.5" cy="47" rx="7" ry="4"></ellipse>
+                <path
+                    d="M25.5,0 C33.2319865,0 39.5,6.2680135 39.5,14 C39.5,21.224971 34.0270691,27.1716705 27.0008071,27.9204987 L27,45.5 C27,46.3284271 26.3284271,47 25.5,47 C24.6715729,47 24,46.3284271 24,45.5 L24.0001924,27.9206052 C16.9734499,27.1722344 11.5,21.2253136 11.5,14 C11.5,6.2680135 17.7680135,0 25.5,0 Z" id="形状结合" fill="#CD4444"></path>
+                <circle id="椭圆形" fill="#FFFFFF" cx="25.5" cy="14" r="7"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

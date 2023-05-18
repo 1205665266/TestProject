@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径</title>
+    <g id="订单详情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="订单_自提_制作中备份" transform="translate(-276.000000, -447.000000)" fill-rule="nonzero">
+            <g id="订单详情-自提-样式二" transform="translate(16.000000, 426.000000)">
+                <g id="图标_地图" transform="translate(260.000000, 21.000000)">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0.0119798954" width="12" height="11.9880201"></rect>
+                    <polygon id="路径" fill="#4AA1FF" points="11.9879753 0 0.0120246641 4.97298251 4.96592746 7.0390629 6.93787527 11.9880201"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

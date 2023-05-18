@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>点餐_未选中</title>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-29备份-2" transform="translate(-129.000000, -5.000000)" fill="#BBBBBB" fill-rule="nonzero">
+            <g id="点餐_未选中" transform="translate(94.000000, 0.000000)">
+                <g id="点餐-icon" transform="translate(35.000000, 5.000000)">
+                    <g id="编组-21" transform="translate(3.819409, 2.000000)">
+                        <path d="M17.361019,0 L0,0 L3.33558141,20 L14.0282477,20 L17.361019,0 Z M14.9995913,2 L12.3335913,18 L5.02959131,18 L2.36059131,2 L14.9995913,2 Z" id="路径"></path>
+                        <polygon id="路径" points="12.5412388 6.70515971 10.9984972 15.9666137 6.36521448 15.9666137 4.82247295 6.70515971"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

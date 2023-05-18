@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="7px" viewBox="0 0 14 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <defs>
+        <path d="M62.0710678,0.857864376 L68.211,7 L121.517241,7 C122.888431,7 124,8.11156885 124,9.48275852 L124,34.5172415 C124,35.8884311 122.888431,37 121.517241,37 L2.48275852,37 C1.11156885,37 4.16472519e-15,35.8884311 0,34.5172415 L0,9.48275852 C-1.67922304e-16,8.11156885 1.11156885,7 2.48275852,7 L55.93,7 L62.0710678,0.857864376 Z" id="path-1"></path>
+        <filter x="-6.0%" y="-20.3%" width="112.1%" height="140.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0741914336 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="确认订单" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="确认订单-确认支付-门店过远备到店（头像版）" transform="translate(-187.000000, -391.000000)">
+            <g id="矩形-2备份" transform="translate(0.000000, 314.000000)">
+                <g id="提示框" transform="translate(132.000000, 47.000000)">
+                    <g id="形状结合" transform="translate(62.000000, 18.500000) scale(1, -1) translate(-62.000000, -18.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
